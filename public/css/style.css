@@ -1,0 +1,103 @@
+/* ----------------------------------- NAV */
+.navbar-contact {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-contact {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-contact {
+        display: block;
+    }
+}
+
+/* ------------------------------- SERCH */
+
+.after-nav {
+  padding: 25px;
+}
+
+.form-search {
+  background-color: #f25703;
+  padding: 20px;
+}
+
+.form-search input, .form-search select, .btn-only-border {
+  background: #f25703;
+  color: #ccc;
+  border-color: #ef8c56;
+}
+
+
+.form-search input[type=submit]:hover {
+  background-color: #ef8c56;
+  color: #f25703;
+}
+
+.form-search span {
+  background-color: #f25703;
+  border-color: #ef8c56;
+  color: #fff;
+}
+
+.nav-foo {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+/* ------------------------------ EVENTS ---------- */
+
+.thumbnail .label-date {
+  position:absolute;
+  top:-50;
+  left: 20px;
+  color:#fff;
+  font-size:20px;
+  padding: 5px;
+  z-index:1;
+  box-shadow: 1px 1px 1px #999;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+
+.thumbnail .lat {
+  background-color: green;
+}
+
+.thumbnail .old {
+  background-color: red;
+}
+
+/* ------------------------------ FOOTER ------ */
+.info-foo {
+  background-color: #212121;
+  padding: 20px 0 0 0;
+  margin-top: 30px;
+}
+
+.info-foo h2 {
+  color: #f25703;
+}
+
+.info-foo p {
+  color: #fff;
+  padding: 5px;
+}
+
+.info-foo li {
+  list-style: none;
+  color: #fff;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+.footer {
+  background-color: #f25703;
+  padding: 10px 0 10px 0;
+}
